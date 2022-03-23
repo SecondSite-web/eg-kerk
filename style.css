@@ -1,0 +1,71 @@
+/*
+Theme Name: EG Kerk
+Theme URI: https://github.com/SecondSite/secondpress#readme
+Template: secondpress
+Author: SecondSite | Greg Schoeman
+Author URI: https://github.com/SecondSite/secondpress#readme/
+Description: Custom theme built for www.egkerkwarmbad.co.za
+Tags: custom-background,custom-logo,custom-menu,featured-images,threaded-comments,translation-ready
+Version: 1.0.1.1645181054
+Updated: 2022-02-18 12:44:14
+
+*/
+
+/* All pages */
+.site-main {
+    min-height:550px;
+}
+/* Home Page */
+.home .entry-content {
+    margin:0;
+}
+.home .post-edit-link {
+    display:none;
+    visibility:hidden;
+}
+/* Sidebars */
+.widget li a {
+    color: #fd7e14;
+    text-decoration: none;
+}
+.widget ol, .widget ul {
+    padding-left:0;
+    margin-left:0;
+}
+.widget ul li {
+    list-style: none;
+}
+/* Sermons Table */
+.table-link {
+    color: #fd7e14;
+    text-decoration: none;
+}
+
+/* Navbar */
+.nav-active {
+    background-color: #fd7e14;
+}
+.navbar .show a{
+    padding-left: 15px;
+}
+/* footer */
+.site-footer ul {
+    list-style: none;
+    padding-left: 0;
+}
+.site-footer a {
+    color: #fd7e14;
+    text-decoration: none;
+}
+.site-footer ul li {
+    color: #ffffff;
+}
+
+.site-footer h2 {
+    font-size:2rem;
+    color: #ffffff;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-bottom: .5rem;
+    margin-top: 0;
+}
